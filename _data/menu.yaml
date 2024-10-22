@@ -1,0 +1,13 @@
+entries:
+  - title: Ben Bross
+    entries:
+      - title: Welcome to my site.
+      - title: I am a software developer with experience in C++ and Python.
+      - title: I am also currently learning Rust.
+
+  - title: all posts
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html

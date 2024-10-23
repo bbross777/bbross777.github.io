@@ -1,13 +1,30 @@
 entries:
-  - title: Ben Bross
-    entries:
-      - title: Welcome to my site.
-      - title: I am a software developer with experience in C++ and Python.
-      - title: I am also currently learning Rust.
+  - title: hello, my name is Ben. this website serves to showcase some of my work as well as share my thoughts on miscellaneous topics.
 
-  - title: all posts
+  - title: 'all posts:'
     post_list:
       limit: 5
       show_more: true
       show_more_text: See archive...
-      show_more_url: archive.html
+      show_more_url: archive_all.html
+
+  - title: 'programming:'
+    post_list:
+      category: dev
+      show_more: true
+      show_more_text: See more programming posts...
+      show_more_url: arch_dev.html
+
+  - title: 'music:'
+    post_list:
+      category: music
+      show_more: true
+      show_more_text: See more music posts...
+      show_more_url: arch_dev.html
+
+  - title: 'other:'
+    post_list:
+      category: other
+      show_more: true
+      show_more_text: See other...
+      show_more_url: arch_dev.html
